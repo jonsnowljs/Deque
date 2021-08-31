@@ -135,8 +135,8 @@ public class Deque<Item> implements Iterable<Item> {
        deque.removeFirst();
        deque.removeLast();
        System.out.print(deque.size);
-       for(Integer item: deque) {
-           System.out.print(item);
+       for (int name: deque) {
+           System.out.print(name);
        }
 
 
